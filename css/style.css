@@ -1,0 +1,102 @@
+*{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+h3{
+
+}
+/*Header is fixed, hold till finished
+header{
+  display: inline-flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  margin: 10px;
+  z-index: 1;
+}
+*/
+.logo{
+  height: 50px;
+  align-items: flex-start;
+  display: flex;
+}
+
+/* Can't get nav separate*/
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mission{
+  display: flex;
+  background-image: url("../resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.MissionText{
+  display: inline-block;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  height: 50px;
+}
+
+.FallBerryBlitz img,
+.SpicedRum img,
+.SeasonalDonuts img,
+.MyrtleAve img,
+.BedfordBizzare img{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.TeaoftheMonth{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.TeaoftheMonth h4{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.TeaoftheMonthHeader{
+  display: inline-block;
+}
+
+.locations{
+  background-image: url(../resources/images/img-locations-background.jpg);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.downtown,
+.EastBayside,
+.Oakdale{
+  padding: 40px;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+}
+
+.LocationsHeader{
+  width: 100%;
+}
